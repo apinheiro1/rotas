@@ -1,7 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Threading.Tasks;
-using System.Collections.Generic;
 using Application.Services;
 using Domain.Entities;
 
