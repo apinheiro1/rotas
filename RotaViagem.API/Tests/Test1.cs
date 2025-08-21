@@ -34,7 +34,6 @@ namespace Tests
 
 
             var (caminho, custoTotal) = await service.ConsultarRotaMaisBarata("GRU", "CDG");
-
             var caminhoEsperado = new[] { "GRU", "BRC", "SCL", "ORL", "CDG" };
             var caminhoCalculado = caminho.Select(r => r.origem).ToList();
             caminhoCalculado.Add(caminho.Last().destino);
