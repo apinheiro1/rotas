@@ -45,5 +45,18 @@ namespace Tests
             var caminhoCalculado = custoTotal;
             Xunit.Assert.Equal(caminhoCalculado, caminhoEsperado);
         }
+
+
+
+        [Fact]
+        public async Task Deve_retornar_tudo()
+        {
+            var repo = new RotaRepository();
+            var service = new RotaService(repo);
+            var resultado = await service.ListarRotasAsync();
+            var caminhoEsperado = 10;            
+            Xunit.Assert.Equal(resultado.Count, caminhoEsperado);
+        }
+
     }
 }
