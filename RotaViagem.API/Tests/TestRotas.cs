@@ -8,7 +8,6 @@ namespace Tests
     [TestClass]
     public sealed class TestRotas
     {
-
         [Fact]
         public async Task Deve_Adicionar_Rota_Corretamente()
         {
@@ -47,7 +46,5 @@ namespace Tests
             var caminhoCalculado = custoTotal;
             Xunit.Assert.Equal(caminhoCalculado, caminhoEsperado);
         }
-
-
     }
 }
