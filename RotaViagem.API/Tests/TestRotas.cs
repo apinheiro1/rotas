@@ -1,7 +1,8 @@
-﻿using Application.Services;
+﻿using Xunit;
 using Domain.Entities;
+using Application.Services;
 using Infrastructure.Persistence;
-using Xunit;
+
 
 namespace Tests
 {
