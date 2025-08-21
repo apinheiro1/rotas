@@ -11,7 +11,7 @@
         "projectName": "Application",
         "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThinkPad\\Source\\Repos\\rotas\\RotaViagem.API\\Application\\obj\\",
+        "outputPath": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -147,7 +147,7 @@
         "projectName": "Infrastructure",
         "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThinkPad\\Source\\Repos\\rotas\\RotaViagem.API\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -220,7 +220,7 @@
         "projectName": "Tests",
         "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThinkPad\\Source\\Repos\\rotas\\RotaViagem.API\\Tests\\obj\\",
+        "outputPath": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -272,9 +272,9 @@
               "target": "Package",
               "version": "[17.12.0, )"
             },
-            "ShouldFluent": {
+            "xunit": {
               "target": "Package",
-              "version": "[1.1.19, )"
+              "version": "[2.9.3, )"
             },
             "xunit.extensibility.core": {
               "target": "Package",

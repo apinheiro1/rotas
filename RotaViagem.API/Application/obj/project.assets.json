@@ -37,7 +37,7 @@
       "projectName": "Application",
       "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ThinkPad\\Source\\Repos\\rotas\\RotaViagem.API\\Application\\obj\\",
+      "outputPath": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
