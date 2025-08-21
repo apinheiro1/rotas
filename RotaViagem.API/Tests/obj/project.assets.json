@@ -1834,9 +1834,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ThinkPad\\Source\\Repos\\rotas\\RotaViagem.API\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\ThinkPad\\Source\\Repos\\rotas\\RotaViagem.API\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ThinkPad\\Source\\Repos\\rotas\\RotaViagem.API\\Tests\\obj\\",
       "projectStyle": "PackageReference",
@@ -1860,8 +1860,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ThinkPad\\Source\\Repos\\rotas\\RotaViagem.API\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\ThinkPad\\Source\\Repos\\rotas\\RotaViagem.API\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
