@@ -14,8 +14,8 @@ namespace Tests
         [Fact]
         public async Task Deve_Adicionar_Rota_Corretamente()
         {
-            
-            var repo = new RotaRepository(); 
+
+            var repo = new RotaRepository();
             var service = new RotaService(repo);
 
             var rotas = new[]
@@ -32,25 +32,25 @@ namespace Tests
                 await service.CriarRotaAsync(rota);
             }
 
-           
+
             var (caminho, custoTotal) = await service.ConsultarRotaMaisBarata("GRU", "CDG");
 
             var caminhoEsperado = new[] { "GRU", "BRC", "SCL", "ORL", "CDG" };
             var caminhoCalculado = caminho.Select(r => r.origem).ToList();
             caminhoCalculado.Add(caminho.Last().destino);
             Xunit.Assert.Equal(caminhoCalculado, caminhoEsperado);
-            
+
         }
 
         [Fact]
         public async Task Deve_retornar_valor_40()
         {
-            
-            var repo = new RotaRepository(); 
-            var service = new RotaService(repo);            
+
+            var repo = new RotaRepository();
+            var service = new RotaService(repo);
             var (caminho, custoTotal) = await service.ConsultarRotaMaisBarata("GRU", "CDG");
             var caminhoEsperado = 40;
-            var caminhoCalculado = custoTotal;           
+            var caminhoCalculado = custoTotal;
             Xunit.Assert.Equal(caminhoCalculado, caminhoEsperado);
         }
 
