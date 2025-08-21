@@ -1,8 +1,6 @@
 ﻿using Application.Services;
 using Domain.Entities;
 using Infrastructure.Persistence;
-
-
 using Xunit;
 
 namespace Tests
