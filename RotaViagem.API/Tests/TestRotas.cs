@@ -47,7 +47,7 @@ namespace Tests
         }
 
         [Fact]
-        public async Task Deve_retornar_tudo()
+        public async Task Deve_retornar_tudas_as_rotas()
         {
             var repo = new RotaRepository();
             var service = new RotaService(repo);
