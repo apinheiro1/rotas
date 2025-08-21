@@ -33,7 +33,6 @@ namespace Tests
             var caminhoCalculado = caminho.Select(r => r.origem).ToList();
             caminhoCalculado.Add(caminho.Last().destino);
             Xunit.Assert.Equal(caminhoCalculado, caminhoEsperado);
-
         }
 
         [Fact]
