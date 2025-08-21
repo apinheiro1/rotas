@@ -1,7 +1,6 @@
 ﻿using Application.Interfaces;
 using Domain.Entities;
 
-
 namespace Application.Services
 {
     public class RotaService

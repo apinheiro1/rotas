@@ -2,7 +2,7 @@
 using Application.Services;
 using Domain.Entities;
 
-namespace SeuProjeto.Controllers
+namespace Rotas.Controllers
 {
     [ApiController]
     [Route("rotas")]

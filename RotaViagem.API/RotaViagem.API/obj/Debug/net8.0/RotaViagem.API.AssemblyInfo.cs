@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RotaViagem.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d5c2776caf4b2d9b0e4adb7b6c09a82f3954660")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81030f67e2eddd6376fac4b66e3f2ae1e534e87b")]
 [assembly: System.Reflection.AssemblyProductAttribute("RotaViagem.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RotaViagem.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
