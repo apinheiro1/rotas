@@ -17,7 +17,6 @@ namespace Tests
 
             var repo = new RotaRepository();
             var service = new RotaService(repo);
-
             var rotas = new[]
             {
                 new Rota { origem = "GRU", destino = "BRC", valor = 10 },
