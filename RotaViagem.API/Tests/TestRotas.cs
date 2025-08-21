@@ -22,7 +22,7 @@ namespace Tests
                 new Rota { origem = "GRU", destino = "BRC", valor = 10 },
                 new Rota { origem = "BRC", destino = "SCL", valor = 5 },
                 new Rota { origem = "SCL", destino = "ORL", valor = 20 },
-                new Rota { origem = "ORL", destino = "CDG", valor = 1 },
+                new Rota { origem = "ORL", destino = "CDG", valor = 5 },
                 new Rota { origem = "GRU", destino = "CDG", valor = 100 }
             };
 

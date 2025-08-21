@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c/hzbCHwh3M=",
+  "dgSpecHash": "83o7q+/Jago=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ThinkPad\\source\\repos\\rotas\\RotaViagem.API\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\ThinkPad\\Source\\Repos\\rotas\\RotaViagem.API\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",

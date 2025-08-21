@@ -21,10 +21,40 @@
     "id": "5a465143-f901-49d0-9084-9a113a5b9390",
     "origem": "ORL",
     "destino": "CDG",
-    "valor": 1
+    "valor": 5
   },
   {
     "id": "e71556d8-cc38-4e52-87fc-4a8306aad215",
+    "origem": "GRU",
+    "destino": "CDG",
+    "valor": 100
+  },
+  {
+    "id": "2ffc4666-1120-4341-a14a-6d07c8cdb06b",
+    "origem": "GRU",
+    "destino": "BRC",
+    "valor": 10
+  },
+  {
+    "id": "dfc7a162-ad84-4801-a4d5-ca4b90b27235",
+    "origem": "BRC",
+    "destino": "SCL",
+    "valor": 5
+  },
+  {
+    "id": "9b3aa09b-6e8d-4469-a9eb-e6138669334f",
+    "origem": "SCL",
+    "destino": "ORL",
+    "valor": 20
+  },
+  {
+    "id": "7c5b844e-8789-410d-b445-7d81e986dbba",
+    "origem": "ORL",
+    "destino": "CDG",
+    "valor": 5
+  },
+  {
+    "id": "d1315a84-f8f4-4232-b9ed-2e6c2a11af7e",
     "origem": "GRU",
     "destino": "CDG",
     "valor": 100
