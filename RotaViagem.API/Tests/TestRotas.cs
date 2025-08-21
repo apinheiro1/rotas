@@ -46,8 +46,6 @@ namespace Tests
             Xunit.Assert.Equal(caminhoCalculado, caminhoEsperado);
         }
 
-
-
         [Fact]
         public async Task Deve_retornar_tudo()
         {
