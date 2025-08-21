@@ -1,44 +1,32 @@
 [
   {
-    "id": "e3a1c8b2-9f4a-4b7e-8d1e-1f2c3a4b5d6e",
+    "id": "250cdf97-0c14-40ad-aab2-65bec3268d3d",
     "origem": "GRU",
     "destino": "BRC",
     "valor": 10
   },
   {
-    "id": "a7b2d3c4-5e6f-4a8b-9c1d-2e3f4a5b6c7d",
+    "id": "0b9149b1-723b-43c1-8e98-ed19c8d9bcb2",
     "origem": "BRC",
     "destino": "SCL",
     "valor": 5
   },
   {
-    "id": "f1c2d3e4-5a6b-7c8d-9e0f-1a2b3c4d5e6f",
-    "origem": "GRU",
-    "destino": "CDG",
-    "valor": 75
-  },
-  {
-    "id": "b2c3d4e5-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
-    "origem": "GRU",
-    "destino": "SCL",
-    "valor": 20
-  },
-  {
-    "id": "c3d4e5f6-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
-    "origem": "GRU",
-    "destino": "ORL",
-    "valor": 56
-  },
-  {
-    "id": "d4e5f6a7-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
-    "origem": "ORL",
-    "destino": "CDG",
-    "valor": 5
-  },
-  {
-    "id": "e5f6a7b8-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
+    "id": "778ca168-4550-4d81-805a-cab5dc78aaa6",
     "origem": "SCL",
     "destino": "ORL",
     "valor": 20
+  },
+  {
+    "id": "5a465143-f901-49d0-9084-9a113a5b9390",
+    "origem": "ORL",
+    "destino": "CDG",
+    "valor": 1
+  },
+  {
+    "id": "e71556d8-cc38-4e52-87fc-4a8306aad215",
+    "origem": "GRU",
+    "destino": "CDG",
+    "valor": 100
   }
 ]
