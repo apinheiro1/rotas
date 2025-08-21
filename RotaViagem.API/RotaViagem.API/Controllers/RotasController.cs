@@ -47,7 +47,6 @@ namespace Rotas.Controllers
             });
         }
 
-
         // GET /rotas/{id}
         [HttpGet("{id}")]
         public async Task<IActionResult> BuscarPorId(string id)
@@ -80,8 +79,5 @@ namespace Rotas.Controllers
             await _service.RemoverRotaAsync(id);
             return NoContent();
         }
-
-
-
     }
 }
