@@ -53,7 +53,7 @@ namespace Tests
             var (caminho, custoTotal) = await service.ConsultarRotaMaisBarata("GRU", "CDG");
 
             var caminhoEsperado = 40;
-            var caminhoCalculado = caminho.FirstOrDefault().valor;           
+            var caminhoCalculado = custoTotal;           
             Xunit.Assert.Equal(caminhoCalculado, caminhoEsperado);
         }
 
