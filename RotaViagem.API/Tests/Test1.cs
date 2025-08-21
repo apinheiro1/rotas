@@ -43,7 +43,6 @@ namespace Tests
         [Fact]
         public async Task Deve_retornar_valor_40()
         {
-
             var repo = new RotaRepository();
             var service = new RotaService(repo);
             var (caminho, custoTotal) = await service.ConsultarRotaMaisBarata("GRU", "CDG");
