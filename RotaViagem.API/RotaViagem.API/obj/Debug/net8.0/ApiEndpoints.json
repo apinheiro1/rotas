@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "SeuProjeto.Controllers.RotasController",
+    "Method": "ListarRotas",
+    "RelativePath": "rotas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SeuProjeto.Controllers.RotasController",
+    "Method": "CriarRota",
+    "RelativePath": "rotas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rota",
+        "Type": "Domain.Entities.Rota",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SeuProjeto.Controllers.RotasController",
+    "Method": "BuscarPorId",
+    "RelativePath": "rotas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SeuProjeto.Controllers.RotasController",
+    "Method": "AtualizarRota",
+    "RelativePath": "rotas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "rota",
+        "Type": "Domain.Entities.Rota",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SeuProjeto.Controllers.RotasController",
+    "Method": "RemoverRota",
+    "RelativePath": "rotas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SeuProjeto.Controllers.RotasController",
+    "Method": "ConsultarRotaMaisBarata",
+    "RelativePath": "rotas/mais-barata",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "origem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "destino",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
