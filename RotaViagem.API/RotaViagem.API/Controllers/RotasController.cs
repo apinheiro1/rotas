@@ -14,16 +14,13 @@ namespace Rotas.Controllers
         {
             _service = service;
         }
-
-
-        // GET /rotas
+        
         [HttpGet]
         public async Task<IActionResult> ListarRotas()
         {
             var rotas = await _service.ListarRotasAsync();
             return Ok(rotas);
         }
-
 
         [HttpGet("mais-barata")]
         public async Task<IActionResult> ConsultarRotaMaisBarata([FromQuery] string origem, [FromQuery] string destino)
@@ -46,24 +43,21 @@ namespace Rotas.Controllers
                 })
             });
         }
-
-        // GET /rotas/{id}
+        
         [HttpGet("{id}")]
         public async Task<IActionResult> BuscarPorId(string id)
         {
             var rota = await _service.BuscarPorIdAsync(id);
             return rota is null ? NotFound() : Ok(rota);
         }
-
-        // POST /rotas
+        
         [HttpPost]  
         public async Task<IActionResult> CriarRota([FromBody] Rota rota)
         {
             await _service.CriarRotaAsync(rota);
             return CreatedAtAction(nameof(BuscarPorId), new { id = rota.id }, rota);
         }
-
-        // PUT /rotas/{id}
+        
         [HttpPut("{id}")]
         public async Task<IActionResult> AtualizarRota(string id, [FromBody] Rota rota)
         {
@@ -72,7 +66,6 @@ namespace Rotas.Controllers
             return NoContent();
         }
 
-        // DELETE /rotas/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> RemoverRota(string id)
         {
